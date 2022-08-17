@@ -1,0 +1,37 @@
+body{
+    background-color:#A9D9BA;
+}
+ .box{
+    /* display: inline-block; */
+   width: 57px;
+   height:57px; 
+   text-align: center;
+   border: 1px solid black;
+   transition: background-color 0.5s ease-in;
+}
+.myRow{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #001d3d;
+}
+.topheader {
+    font-family: "Arial Black", sans-serif;
+    font-size: 4.3em;
+    letter-spacing: -1px;
+    background-color: #F25C05;
+    color: #F2B705;
+   }
+   @media only screen and (max-width: 425px) {
+    .box{
+        width: 40px;
+        height: 40px;
+    }
+}
+    @media only screen and (max-width: 425px) {
+        .topheader{
+            font-size: 3em;
+        }
+    
+}
